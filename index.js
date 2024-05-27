@@ -7,7 +7,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 // Telegram bot tokenini kiriting
-const token = '6905575163:AAEC0Ej9UL7F_U_hizhJP9caI29a2DSohpw';
+const token = 'BOTNING_TOKENI_BU_YERGA_YOZILADI';
 const bot = new TelegramBot(token, { polling: true });
 
 // Mongoose yordamida MongoDB bilan ulanish
